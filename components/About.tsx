@@ -31,7 +31,7 @@ function About({ pageInfo }: Props) {
       className='-mb-20 mt-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className='text-4xl font-semibold'>Ici <span className='underline decoration-[#F7AB0A]'>un peu</span> d'Infos</h4>
+        <h4 className='text-4xl font-semibold'>Ici <span className='underline decoration-[#F7AB0A]'>un peu</span> d&apos;Infos</h4>
         <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iusto reiciendis possimus corporis molestias facere rem voluptatibus eius et eos non doloremque modi, similique obcaecati nulla nostrum atque recusandae a nesciunt porro sit maiores assumenda! Illum quod libero amet facilis quis at expedita reiciendis? Voluptatum, est voluptatem ipsa velit dolore nesciunt assumenda. Perferendis commodi voluptatum provident quae deleniti eaque fuga et repellendus blanditiis impedit. Adipisci nesciunt necessitatibus velit reiciendis autem maiores quisquam, mollitia ipsum obcaecati recusandae ducimus dolorum minus debitis.</p>
       </div>
     </motion.div>

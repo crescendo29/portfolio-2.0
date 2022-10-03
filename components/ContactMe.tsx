@@ -34,7 +34,7 @@ function ContactMe({}: Props) {
 
 			<div className='flex flex-col space-y-10'>
 				<h4 className='text-4xl font-semibold text-center'>
-					J'ai peut-être ce dont vous avez besoin,
+					J&apos;ai peut-être ce dont vous avez besoin,
 					<span className='decoration-[#F7AB0A]/50 underline'>
 						{" "}
 						échangeons.
