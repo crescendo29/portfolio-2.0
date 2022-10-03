@@ -61,6 +61,7 @@ function Projects({ projects }: Props) {
 							</p>
 							<a
 							target="_blank" 
+							rel="noreferrer"
 							className='text-lg text-center md:text-left underline cursor-pointer'
 							href={project?.linkToBuild}>
 								Visiter le Site
