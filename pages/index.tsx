@@ -1,4 +1,5 @@
 import type {
+	GetServerSideProps,
 	GetStaticProps,
 	NextPage,
 } from "next";
@@ -107,7 +108,7 @@ const Home = ({
 
 export default Home;
 
-export const getStaticProps: GetStaticProps<
+export const getServerSideProps: GetServerSideProps<
 	Props
 > = async () => {
 	const pageInfo: PageInfo =
