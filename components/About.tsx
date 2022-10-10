@@ -28,9 +28,9 @@ function About({ pageInfo }: Props) {
       whileInView={{ opacity: 1, x:0 }}
       viewport={{ once: true }}
       src={urlFor(pageInfo?.profilePic).url()} alt={`${pageInfo?.name}`}
-      className='-mb-20 mt-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+      className='mb-6 mt-40 md:mb-0 flex-shrink-0 w-24 h-24 lg:w-56 lg:h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       />
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-10 px-0 md:px-10 overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]">
         <h4 className='text-4xl font-semibold'>Ici <span className='underline decoration-[#F7AB0A]'>un peu</span> d&apos;Infos</h4>
         <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iusto reiciendis possimus corporis molestias facere rem voluptatibus eius et eos non doloremque modi, similique obcaecati nulla nostrum atque recusandae a nesciunt porro sit maiores assumenda! Illum quod libero amet facilis quis at expedita reiciendis? Voluptatum, est voluptatem ipsa velit dolore nesciunt assumenda. Perferendis commodi voluptatum provident quae deleniti eaque fuga et repellendus blanditiis impedit. Adipisci nesciunt necessitatibus velit reiciendis autem maiores quisquam, mollitia ipsum obcaecati recusandae ducimus dolorum minus debitis.</p>
       </div>
